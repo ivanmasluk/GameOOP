@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Units">
+      <UniqueIdentifier>{a7bc76ee-8c84-4a1e-87f3-20208898dd85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Factories">
+      <UniqueIdentifier>{f69ce304-8a10-41ab-a543-65c4f3c6893b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Attributes">
+      <UniqueIdentifier>{e85db48e-dd6c-441e-aad4-13cacd013dcf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameField.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFieldIterator.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Units\Archer.cpp">
+      <Filter>Исходные файлы\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="Units\Cataphract.cpp">
+      <Filter>Исходные файлы\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="Units\Cavalry.cpp">
+      <Filter>Исходные файлы\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="Units\HeavyArcher.cpp">
+      <Filter>Исходные файлы\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="Units\HorseArcher.cpp">
+      <Filter>Исходные файлы\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="Units\Infantry.cpp">
+      <Filter>Исходные файлы\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="Units\LightArcher.cpp">
+      <Filter>Исходные файлы\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="Units\Spearman.cpp">
+      <Filter>Исходные файлы\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="Units\Swordsman.cpp">
+      <Filter>Исходные файлы\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="Units\Unit.cpp">
+      <Filter>Исходные файлы\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="Factories\ArcherFactory.cpp">
+      <Filter>Исходные файлы\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="Factories\CavalryFactory.cpp">
+      <Filter>Исходные файлы\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="Factories\InfantryFactory.cpp">
+      <Filter>Исходные файлы\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="Attributes\Armor.cpp">
+      <Filter>Исходные файлы\Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="Attributes\Attack.cpp">
+      <Filter>Исходные файлы\Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="Attributes\Health.cpp">
+      <Filter>Исходные файлы\Attributes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameField.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFieldIterator.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Units\Archer.h">
+      <Filter>Исходные файлы\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Units\Cataphract.h">
+      <Filter>Исходные файлы\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Units\Cavalry.h">
+      <Filter>Исходные файлы\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Units\HeavyArcher.h">
+      <Filter>Исходные файлы\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Units\HorseArcher.h">
+      <Filter>Исходные файлы\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Units\Infantry.h">
+      <Filter>Исходные файлы\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Units\LightArcher.h">
+      <Filter>Исходные файлы\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Units\Spearman.h">
+      <Filter>Исходные файлы\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Units\Swordsman.h">
+      <Filter>Исходные файлы\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Units\Unit.h">
+      <Filter>Исходные файлы\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Factories\ArcherFactory.h">
+      <Filter>Исходные файлы\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="Factories\CavalryFactory.h">
+      <Filter>Исходные файлы\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="Factories\InfantryFactory.h">
+      <Filter>Исходные файлы\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="Factories\UnitFactory.h">
+      <Filter>Исходные файлы\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="Attributes\Armor.h">
+      <Filter>Исходные файлы\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="Attributes\Attack.h">
+      <Filter>Исходные файлы\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="Attributes\Health.h">
+      <Filter>Исходные файлы\Attributes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
